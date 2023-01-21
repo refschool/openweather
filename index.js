@@ -10,9 +10,9 @@ function removeArrayDuplicates(arr) {
 
     let theSet = new Set(arr);
 
-    arr.filter((num) => {
+    uniqueArr = arr.filter((num) => {
         if (!uniqueArr.includes(num)) {
-            uniqueArr.push(num)
+            return num
         }
     })
 
