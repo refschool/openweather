@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "keywords": [
     "openweather",
@@ -12,5 +12,8 @@
     "demo"
   ],
   "author": "refschool <[referencementschool@gmail.com](mailto:referencementschool@gmail.com)>",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.3.1"
+  }
 }
